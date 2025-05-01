@@ -14,3 +14,7 @@
     grid-template-columns: repeat(auto-fit, minmax(min(40%, 350px), 1fr));
     gap: 1.25rem;
 }
+
+.seccion-vertical .seccion__tarjetas{
+    
+}
