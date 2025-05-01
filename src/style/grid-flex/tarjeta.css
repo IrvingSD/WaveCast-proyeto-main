@@ -22,3 +22,13 @@
 .seccion-horizontal .tarjeta__player{
     grid-area: 3/2/4/3;
 }
+
+.seccion-vertical .seccion__tarjetas .tarjeta a{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.seccion-vertical .seccion__tarjetas .tarjeta__titulo{
+    flex-grow: 1;
+}
