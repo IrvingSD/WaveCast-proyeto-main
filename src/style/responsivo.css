@@ -49,6 +49,9 @@
         display: none;
     }
 
+    .menu-lateral{
+        width: 208px;
+    }
    
     .navbar {
         display: none;
@@ -78,6 +81,10 @@
     .navbar,
     .cabecera__logo {
         display: none;
+    }
+
+    .menu-lateral{
+        width: 228px;
     }
 
     
