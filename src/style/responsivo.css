@@ -41,6 +41,15 @@
         padding: 0;
     }
 
+    .seccion-player {
+        width: 100vw;
+        bottom: 50px;
+        left: 0;
+        height: 100px;
+
+    
+    }
+
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1399px) {
@@ -78,6 +87,12 @@
 
     .seccion-vertical .tarjeta {
         padding: 1.25rem;
+    }
+
+    .seccion-player {
+        width: 100vw;
+        left: 0;
+    
     }
 
 }

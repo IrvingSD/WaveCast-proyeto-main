@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./src/style/grid-flex/seccion.css">
     <link rel="stylesheet" href="./src/style/grid-flex/tarjeta.css">
     <link rel="stylesheet" href="./src/style/grid-flex/navbar.css">
+    <link rel="stylesheet" href="./src/style/grid-flex/reproduccion.css">
     <link rel="stylesheet" href="./src/style/base.css">
     <link rel="stylesheet" href="./src/style/responsivo.css">
 </head>
@@ -237,6 +238,33 @@
                 </li>
             </ul>
         </section>
+
+        <section class="seccion-player">
+            <div class="player_descripcion">
+                <img src="https://caelum-online-public.s3.amazonaws.com/3368-css-layouts-grid/img/android-jetpack.jpg" alt="Podcast Android jetpack - Hipsters Punto Tech">
+                <h3>Android Jetpack</h3>
+                <span>Hipsters Punto Tech</span>
+            </div>
+            <div class="player_temporizador">
+                <div class="player_temporizador-botones">
+                    <button aria-label="boton volver música 10 segundos"><img src="https://caelum-online-public.s3.amazonaws.com/3368-css-layouts-grid/img/replay-10.svg" alt="Icono volver música 10 segundos"></button><!-- regresar 10 segundos -->
+                    <button aria-label="boton volver música anterior"><img src="https://caelum-online-public.s3.amazonaws.com/3368-css-layouts-grid/img/skip-previous.svg" alt="Icono volver música anterior"></button><!-- volver -->
+                    <button aria-label="Play Podcast"><img src="https://caelum-online-public.s3.amazonaws.com/3368-css-layouts-grid/img/botao-play.svg" alt="Icono de Play"></button>
+                    <button aria-label="boton avanzar próxima música"><img src="https://caelum-online-public.s3.amazonaws.com/3368-css-layouts-grid/img/skip-next.svg" alt="Icono avanzar próxima música"></button><!-- próximo -->
+                    <button aria-label="boton avanzar música 10 segundos"><img src="https://caelum-online-public.s3.amazonaws.com/3368-css-layouts-grid/img/forward-10.svg" alt="Icono avanzar música 10 segundos"></button><!-- avanzar 10 segundos -->
+                </div>
+                <div class="player_temporizador-cronometro">
+                    <span>00:00</span>
+                    <div class="player_temporizador-cronometro_tiempo"></div>
+                    <span>18:35</span>
+                </div>
+            </div>
+            <div class="player_volumen">
+                <button aria-label="boton disminuir volumen"><img src="https://caelum-online-public.s3.amazonaws.com/3368-css-layouts-grid/img/volume-down.svg" alt="Icono disminuir volumen"></button><!-- volumen-bajo -->
+                <div class="player_volumen_nivel"></div> <!-- nível volumen -->
+                <button aria-label="boton aumentar volumen"><img src="https://caelum-online-public.s3.amazonaws.com/3368-css-layouts-grid/img/volume-up.svg" alt="Icono aumentar volume"></button><!-- volumen-alto -->
+            </div>
+        </section>
     </main>
 
     <div class="navbar">
@@ -246,6 +274,8 @@
             <li class="navbar__item navbar__item--biblioteca"><form action="."><button aria-label="Boton acceso su biblioteca"><img src="./src/imagenes/Iconos/bookmark-blanco.svg" alt="Logo do Boton acceso su biblioteca">Su Biblioteca</button></form></li>
         </ul>
     </div>
+
+    
 </body>
 
 </html>
